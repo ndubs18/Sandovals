@@ -1,0 +1,80 @@
+
+/* HEADER */
+header {
+    height: fit-content;
+}
+
+.container {
+    height: 100%;
+    padding: 8rem 0 10rem;
+}
+
+.list-group button {
+    text-align: center;
+    
+}
+/* HEADER */
+
+
+section.one {
+    width: 100%;
+    height: auto;
+
+}
+
+section.one .content {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu_content {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background: rgba(0,0,0,.03)
+}
+
+.menu_title {
+    margin: 2rem 0 2rem 5rem;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+
+.category {
+    margin: 1rem 0 2rem;
+    border-bottom: 1px dashed;
+}
+
+.menu_content .item {
+    margin: 1rem 1rem 0;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_content .appetizers, .soups, .salads, .platos, .quesadillas, .entrees, .momsFavorites, .burritos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
+#lunch_title, #lunch_content, #dinner_title, #dinner_content {
+    display: none;
+}
+
+@media only screen and (max-width:579px)
+{
+    .menu_title {
+        width: 80%;
+        margin: 1rem 2rem 1rem 2.2rem;
+    }
+}
+
+
+
+
+

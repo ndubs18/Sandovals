@@ -1,0 +1,119 @@
+nav.navbar .nav-item a {
+    color: black;
+}
+
+ /* HEADER */
+header {
+    height: fit-content;
+    background-image: none;
+    background-size: 100%;
+    padding-bottom: 1.5rem;
+}
+
+header .image_row {
+    padding: 2.5rem 0
+}
+
+header h1 {
+   width: 77%;
+   padding-left: 1rem;
+   margin-top:1rem;
+   font-weight: 900
+}
+
+.row {
+    color: black;
+}
+.image_row .col-sm {
+    height: fit-content;
+    text-align: center;
+}
+
+.image_row .col-sm img {
+    height: 32rem;
+    width: 58rem;
+    max-width: 100%;
+
+}
+
+header .text_row {
+    width: 70%;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.text_row .col-sm {
+    padding: 1rem 2rem 0;
+    line-height: 35px;
+}
+.text_row .col-sm p {
+    margin-bottom: 0;
+    font-weight: 600
+}
+
+.service {
+    text-align: center;
+    width: 14rem;
+    /* border-bottom: 2px solid black; */
+    margin: 0 auto;
+    color: black;
+    
+}
+.service h2 {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 993px) {
+
+    header .image_row {
+        padding: 2rem 0
+    }
+    header .text_row {
+        padding:0;
+        width: 85%
+    }
+}
+/* HEADER */
+
+/* SECTION ONE */
+
+
+section.one {
+    height: auto;
+    width: 100%;
+}
+
+.section_content {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.category {
+    margin: 2rem auto 2.5rem;
+    
+}
+
+.appetizers, .soup_salad, .other {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.one .item {
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    margin-bottom: 1.5rem;
+}
+
+section.one .item p {
+    font-size: 1.1em;
+}
+
+
+
+
+/* SECTION ONE */
