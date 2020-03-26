@@ -31,7 +31,7 @@ header .container {
         }
 
         nav li a.nav-link {
-            font-size: 1.2em;
+            font-size: 1.6rem;
             color: white;
             padding: 0 .5rem;
             
@@ -54,7 +54,8 @@ header .container {
         color: rgba(248, 148, 6, 1);
         border-bottom: 4px solid rgba(248, 148, 6, 1);
         display: inline-block;
-        
+        margin-bottom: 2rem;
+        font-size: 3.75rem;
     }
 
     .row .col-sm-6 h4 
@@ -199,7 +200,17 @@ footer p{
 
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1200px)
+{
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header h4 {
+        font-size: 1.2rem
 
+    }
+
+}
 @media only screen and (max-width: 993px)
 {
     header {
@@ -209,6 +220,10 @@ footer p{
     }
     header .row {
         padding-top: 4rem
+    }
+    nav li a.nav-link {
+        font-size: 1.35rem;
+        
     }
 
 }
@@ -224,7 +239,7 @@ footer p{
     }
 
     .nav-item .nav-link {
-        font-size: 17px;
+        font-size: 1.2rem;
         padding: 0 .25rem .25rem 0
         
     }

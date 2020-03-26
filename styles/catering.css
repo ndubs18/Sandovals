@@ -70,7 +70,11 @@ header .text_row {
     }
     header .text_row {
         padding:0;
-        width: 85%
+        width: 95%
+    }
+    .image_row .col-sm img {
+        height: 15rem;
+
     }
 }
 /* HEADER */
